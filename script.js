@@ -14,11 +14,3 @@ document.querySelectorAll(".reveal").forEach((el, index) => {
   el.style.transitionDelay = `${index * 120}ms`;
   observer.observe(el);
 });
-
-const emailForm = document.querySelector(".email-form");
-if (emailForm) {
-  emailForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    emailForm.reset();
-  });
-}

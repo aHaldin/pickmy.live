@@ -281,26 +281,6 @@ h1 {
   gap: 24px;
 }
 
-.email-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.email-form input {
-  background: rgba(15, 15, 26, 0.8);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 12px 18px;
-  color: var(--text);
-  font-size: 1rem;
-}
-
-.email-form input:focus {
-  outline: 2px solid rgba(255, 45, 149, 0.5);
-  outline-offset: 2px;
-}
-
 .instagram-link {
   color: var(--muted);
   font-weight: 500;
@@ -325,17 +305,6 @@ h1 {
   flex-wrap: wrap;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -358,15 +327,6 @@ h1 {
 
   .how .steps {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .email-form {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .email-form input {
-    flex: 1;
   }
 
   .site-footer {
