@@ -208,6 +208,7 @@ h1 {
   background: linear-gradient(135deg, rgba(138, 43, 226, 0.1), rgba(255, 45, 149, 0.08));
   opacity: 0;
   transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .glass-card:hover::after {
