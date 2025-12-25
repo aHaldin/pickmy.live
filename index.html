@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PickMy — Live Picks, Instantly</title>
+    <meta
+      name="description"
+      content="PickMy.Live is the premium hub for PickMySet and PickMyArtist. Discover sets, artists, and curated music moments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="logo" href="#" aria-label="PickMy home">
+        <span>PickMy</span>
+        <em>.live</em>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#pickmyartist">PickMyArtist</a>
+        <a href="#pickmyset">PickMySet</a>
+        <a href="#how">How it works</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Performers first</p>
+        <h1>Free performer profiles today. Live show tools next.</h1>
+        <p class="lead">
+          PickMyArtist is a free marketplace where performers get discovered and
+          receive enquiries. PickMySet brings QR voting and set control soon.
+        </p>
+        <div class="cta-row">
+          <a class="pill-button primary" href="#pickmyartist">Open PickMyArtist</a>
+          <a class="pill-button muted" href="#pickmyset">Join early access</a>
+        </div>
+        <div class="hero-metrics">
+          <div>
+            <strong>Free</strong>
+            <span>performer marketplace</span>
+          </div>
+          <div>
+            <strong>Live</strong>
+            <span>QR voting + set control</span>
+          </div>
+          <div>
+            <strong>Soon</strong>
+            <span>PickMySet toolkit</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="products reveal">
+        <div class="section-header">
+          <h2>Two products for performers</h2>
+          <p>Start free with PickMyArtist. Level up with PickMySet.</p>
+        </div>
+        <div class="card-grid">
+          <article id="pickmyartist" class="glass-card">
+            <div class="card-badge">PickMyArtist</div>
+            <span class="status-badge">FREE</span>
+            <h3>Free marketplace profiles for performers.</h3>
+            <p>
+              Get discovered, receive enquiries, and share your sound. Everyone
+              can browse.
+            </p>
+            <a class="pill-button primary" href="#" aria-label="Open PickMyArtist">
+              Open PickMyArtist
+            </a>
+          </article>
+          <article id="pickmyset" class="glass-card">
+            <div class="card-badge">PickMySet</div>
+            <span class="status-badge muted">COMING SOON</span>
+            <h3>Live show toolkit with QR voting + set control.</h3>
+            <p>
+              Run audience voting, manage your set, and keep the room engaged.
+            </p>
+            <a class="pill-button muted" href="#" aria-label="Join early access for PickMySet">
+              Join early access
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="how" class="how reveal">
+        <div class="section-header">
+          <h2>How it works</h2>
+          <p>Clear steps from profile to live show control.</p>
+        </div>
+        <div class="steps">
+          <div class="step-card">
+            <span class="step-number">01</span>
+            <h3>Create your PickMyArtist profile</h3>
+            <p>List your sound, highlights, and availability for enquiries.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">02</span>
+            <h3>Get discovered and contacted</h3>
+            <p>Anyone can browse and reach out for bookings.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">03</span>
+            <h3>Join PickMySet early access</h3>
+            <p>Unlock QR voting and set control tools as they launch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="connect" class="connect reveal">
+        <div class="connect-card">
+          <div>
+            <h2>Get the drop.</h2>
+            <p>
+              Weekly updates, new drops, and exclusive previews from PickMy.
+            </p>
+          </div>
+          <form class="email-form" aria-label="Email capture form">
+            <label class="sr-only" for="email">Email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+            <button class="pill-button primary" type="submit">Notify me</button>
+          </form>
+          <a
+            class="instagram-link"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Follow on Instagram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>PickMy</strong>
+        <p>Contact: hello@pickmy.live</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Legal</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
